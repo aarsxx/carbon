@@ -27,18 +27,6 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 ### Awards  
 - **Hunan University HuaZhong HHHackathon Rank #2**
 2018.5 Developed an AR wiki app with object detection and 3d UI with my teammates using ARKit, CoreML, Unity. [GitHub](https://github.com/JustinFincher/AReco) | [News](http://hn.people.com.cn/n2/2018/0528/c336521-31632822-3.html)  
-- **IKEA IKODE@SHANGHAI Hackathon Rank #1**    
-2018.4 Developed a app helping people assemble their furniture with my hACKbUSTER teammates, using Unity & ARKit. [GitHub](https://github.com/hACKbUSTER/IKEA-Maker)    
-- **i-lab & SegmentFault Shanghai Hackathon Rank #3**  
-2016.10 Developed an information publishing iOS app using the image recognition API from Microsoft Azure with my hACKbUSTER teammates.  [GitHub](https://github.com/hACKbUSTER/ConnectPlusPlus)  
-- **SegmentFault & AngelHack Shenzhen Hackathon Rank #1**  
-2016.5 Developed an iOS prototype tool using the Framework7 css framework and iflytek voice recognition API with my hACKbUSTER teammates.  [GitHub](https://github.com/hACKbUSTER/ProjectDaVinci) | [News](https://segmentfault.com/a/1190000005656846)  
-- **Uber China Hackathon  Rank #3**     
-2016.1 Developed an iOS app helping tourists to go sight-seeing with the help of UBER. By hACKbUSTER. [GitHub](https://github.com/hACKbUSTER/UberGuide-iOS) | [News](https://segmentfault.com/a/1190000004372053)    
-- **Epoch: China Art Hackathon Rank #2**    
-2015.12 Developed an iOS music visualization app using MAX7, OSC protocol and SceneKit with my hACKbUSTER teammates. [GitHub](https://github.com/hACKbUSTER/Renaissance)  
-- **SegmentFault Beijing Hackathon Rank #1**    
-2015.10 Developed an Unity and Vuforia based AR app aiming to help people fixing their MacBooks with my hACKbUSTER teammates. [GitHub](https://github.com/hACKbUSTER/FixPlusPlus) | [News](https://segmentfault.com/a/1190000003920404)  
 
 ### Projects
 #### Company projects
