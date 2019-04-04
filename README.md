@@ -50,10 +50,10 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 - **Unity Project Code Refactoring @ Baidu Home Intelligence Department**    
 2017.3 - 2017.8 Unity code refactor. Work done mainly in animation state machine，reactive C# and native UI in RN related development.
 
-##### RavenTech (渡鸦科技)
-- **Audio Visualization @ RavenTech**     
+##### Course-Net Indonesia
+- **iOS Programming Coach**     
 2016.7 - 2016.9 Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music visualization (with audio source drum detection), unity assembly hot reload, and some native communication with Android.
-- **VR Research @ RavenTech**    
+- **Basic Programming Coach**    
 2016.5 Did some VR research in RavenLab, using Unity & GearVR. We lately finished a VR app we called Project Argos, which provides a virtual desktop experience with RavenTech’s EVA AI assistant. I wrote parts for GearVR SDK integration, Leap Motion C# SDK data streaming through socket, a VR tab-based UI system, a VR remote desktop mirroring client and a VR web browser.
 
 ##### Out-Source Projects
