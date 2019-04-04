@@ -42,7 +42,7 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 
 ### Projects
 #### Company projects
-##### RCT Studio
+##### BukaLapak. #BukaMagang
 - **Interactive Movie Development @ RCT** 
 2018.9 - 2019.1 Responsible for the initial structure of the interactive movie project & movie script parser as co-founder & chief engineer. Helped RCT to be a YC 19W finalist in the winter of 2018.
 
@@ -52,9 +52,10 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 
 ##### Course-Net Indonesia
 - **iOS Programming Coach**     
-2016.7 - 2016.9 Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music visualization (with audio source drum detection), unity assembly hot reload, and some native communication with Android.
+2017.7 - 2016.9 teach iOS application development to 20-30 fellow students. Content : Objective-C，Basic UIKit Control，MVC，NSUserDefault，UITableView. 
+Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music visualization (with audio source drum detection), unity assembly hot reload, and some native communication with Android.
 - **Basic Programming Coach**    
-2016.5 Did some VR research in RavenLab, using Unity & GearVR. We lately finished a VR app we called Project Argos, which provides a virtual desktop experience with RavenTech’s EVA AI assistant. I wrote parts for GearVR SDK integration, Leap Motion C# SDK data streaming through socket, a VR tab-based UI system, a VR remote desktop mirroring client and a VR web browser.
+2017.9 Primary Focus
 
 ##### Out-Source Projects
 - **3D Presentation App**    
@@ -78,5 +79,7 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 
 
 ### Social activity
-- **Tutor in CSU iOS laboratory**    
-2016.9 - 2017.2 Teach iOS application development to 20-30 fellow students. Content : Objective-C，Basic UIKit Control，MVC，NSUserDefault，UITableView.
+- **ESRI Event leader GISweek2018**    
+2018.6 - 2018.10 .
+- **Go-Jek Student Volunteer**    
+2018.1 - 2018.3 .
