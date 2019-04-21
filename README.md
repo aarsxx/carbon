@@ -6,7 +6,7 @@
 ### 戴福生, Dai Fu Sheng (Andika Leonardo)  
 iOS & Web Developer, amateur UI Designer     
 Personal Website : [andikaleonardo.com](https://andikaleonardo.com/)  
-Email Address : [leonardodika.13@gmail.com](mailto:leonardodika.13@gmail.com)   
+Email Address : [hello@andikaleonardo.com](mailto:hello@andikaleonardo.com)   
 Phone Num : [+62 87881986436 (Indonesia)](tel:+62-878-8198-6436) | [+1 (415) 650-8901 (US)](tel:+1-415-650-8901)  
 
 ### About
