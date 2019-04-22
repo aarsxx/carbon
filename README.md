@@ -35,6 +35,7 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music visualization (with audio source drum detection), unity assembly hot reload, and some native communication with Android.
 - **Basic Programming Coach**    
 2017.9 Primary Focus
+teaching Basic Programming such as Datastructures, OOP, etc.
 
 ##### Out-Source Projects
 - **3D Presentation App**    
