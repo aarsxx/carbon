@@ -37,10 +37,6 @@ Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music vi
 teaching Basic Programming such as Datastructures, OOP, etc.
 
 ##### Out-Source Projects
-- **3D Presentation App**    
-2017.7 Outsourcing project, integrating Unity to an iOS project. Using Method Swizzling and Build Script for non-invasive integration. Also responsible for asset bundle packaging and writing Unity shader and iOS GPUImage shader. [App Store](https://itunes.apple.com/cn/app/%E7%95%AA%E5%8D%B0/id1289058317?mt=8)
-- **医和本初**    
-2016.11  (Removed for sale) Outsourcing project, iOS Hybrid App with JS - WebKit communication.
 
 #### Personal projects
 (Note : I have plenty of them. To see in detail, visit [Portfolio](http://portfolio.justzht.com/), [GitHub](https://github.com/JustinFincher), [App Store](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8), [Play Store](https://play.google.com/store/apps/dev?id=5201975025990666617) and [andikaleonardo.com](https://andikaleonardo.com). I also writes some posts on projects that is WIP or not open sourced yet on my personal blog)
