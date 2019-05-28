@@ -1,4 +1,4 @@
-# # Resume
+# Resume
 
 > 中文版本请访问 [README.md](README.md)  
 > PDF Link: [https://andikaleonardo.com/CV(en).pdf](https://andikaleonardo.com/CV(en).pdf)
