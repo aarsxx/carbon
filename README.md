@@ -39,7 +39,7 @@ teaching Basic Programming such as Datastructures, OOP, etc.
 ##### Out-Source Projects
 
 #### Personal projects
-(Note : I have plenty of them. To see in detail, visit [Portfolio](http://portfolio.justzht.com/), [GitHub](https://github.com/JustinFincher), [App Store](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8), [Play Store](https://play.google.com/store/apps/dev?id=5201975025990666617) and [andikaleonardo.com](https://andikaleonardo.com). I also writes some posts on projects that is WIP or not open sourced yet on my personal blog)
+(Note : I have plenty of them. To see in detail, visit [Portfolio](http://portfolio.justzht.com/), [GitHub](https://github.com/andikaleonardo)and [andikaleonardo.com](https://andikaleonardo.com). I also writes some posts on projects that is WIP or not open sourced yet on my personal blog)
 
 
 ### Social activity
