@@ -14,7 +14,7 @@ Phone Num : [+62 87881986436 (Indonesia)](tel:+62-878-8198-6436) | [+1 (415) 650
 Male who was born in 1998. Currently in the middle of deferment in Computer Science @Binus University (2016-2020). @ Apple Developer Academy (2019-2020)   
 GitHub : [@AndikaLeonardo](https://github.com/andikaleonardo)  
 LinkedIn : [@戴福生 (Andika Leonardo)](https://www.linkedin.com/in/andikaleonardo)  
-
+Instagram : [@leonardodika_](https://www.instagram.com/in/leonardodika_)  
 ### Skills
 - **Cocoa Development**  
 Develop iOS / macOS software using Objective-C. Mastery in main stream APIs & frameworks usage. **Winner of Apple WWDC 2018 Scholarship**.
