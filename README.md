@@ -48,5 +48,3 @@ teaching Basic Programming such as Datastructures, OOP, etc.
 - **Go-Jek Student Volunteer**    
 2018.1 - 2018.3 .
 
-
-## test
