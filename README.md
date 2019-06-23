@@ -11,7 +11,8 @@ Email Address : [hello@andikaleonardo.com](mailto:hello@andikaleonardo.com)
 Phone Num : [+62 87881986436 (Indonesia)](tel:+62-878-8198-6436) | [+1 (415) 650-8901 (US)](tel:+1-415-650-8901)  
 
 ### About
-Male who was born in 1998. Currently in the middle of deferment in Computer Science @Binus University (2016-2020). @ Apple Developer Academy (2019-2020)   
+Male who was born in 1998. Currently in the middle of deferment in Computer Science @Binus University (2016-2020). 
+@ Apple Developer Academy (2019-2020)   
 GitHub : [@AndikaLeonardo](https://github.com/andikaleonardo)  
 LinkedIn : [@戴福生 (Andika Leonardo)](https://www.linkedin.com/in/andikaleonardo)  
 Instagram : [@leonardodika_](https://www.instagram.com/in/leonardodika_)  
@@ -37,6 +38,7 @@ Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music vi
 teaching Basic Programming such as Datastructures, OOP, etc.
 
 ##### Out-Source Projects
+still in progress
 
 #### Personal projects
 (Note : I have plenty of them. To see in detail, visit [Portfolio](http://portfolio.justzht.com/), [GitHub](https://github.com/andikaleonardo)and [andikaleonardo.com](https://andikaleonardo.com). I also writes some posts on projects that is WIP or not open sourced yet on my personal blog)
