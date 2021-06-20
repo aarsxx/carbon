@@ -1,52 +1,125 @@
-# Resume
+# Personal Portfolio
 
-> 中文版本请访问 [README.md](README.md)  
-> PDF Link: [https://andikaleonardo.com/CV(en).pdf](https://andikaleonardo.com/CV(en).pdf)
+This is the latest iteration of my personal portfolio. It is statically generated with the Next.js framework, and uses other tools and libraries listed below.
 
+## 🛠 This site is built using
 
-### 戴福生, Dai Fu Sheng (Andika Leonardo)  
-iOS & Web Developer, amateur UI Designer     
-Personal Website : [andikaleonardo.com](https://andikaleonardo.com/)  
-Email Address : [hello@andikaleonardo.com](mailto:hello@andikaleonardo.com)   
-Phone Num : [+62 87881986436 (Indonesia)](tel:+62-878-8198-6436) | [+1 (415) 650-8901 (US)](tel:+1-415-650-8901)  
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [MDX](https://github.com/mdx-js/mdx)
+- [Styled Components](https://styled-components.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 
-### About
-Male who was born in 1998. Currently in the middle of deferment in Computer Science @Binus University (2016-2020). 
-@ Apple Developer Academy (2019-2020)   
-GitHub : [@AndikaLeonardo](https://github.com/andikaleonardo)  
-LinkedIn : [@戴福生 (Andika Leonardo)](https://www.linkedin.com/in/andikaleonardo)  
-Instagram : [@leonardodika_](https://www.instagram.com/in/leonardodika_)  
-### Skills
-- **Cocoa Development**  
-Develop iOS / macOS software using Objective-C. Mastery in main stream APIs & frameworks usage. **Winner of Apple WWDC 2018 Scholarship**.
+Site is deployed through [Vercel](https://vercel.com)
 
-- **Interface Design & Digital Art**  
-Mobile UI Design (Sketch). Adobe Creatives Tools oriented. Texturing (Substance Painter).
+## 📚 Folder overview
 
-### Projects
-#### Company projects
-##### BukaLapak. #BukaMagang
-- **Interactive Movie Development @ RCT** 
-2018.9 - 2019.1 Responsible for the initial structure of the interactive movie project & movie script parser as co-founder & chief engineer. Helped RCT to be a YC 19W finalist in the winter of 2018.
+- `src/components/*` - All react components.
+- `src/context/*` - All react context providers and hooks.
+- `src/data/*` - Various static data sources.
+- `src/hooks/*` - Custom react hooks.
+- `src/layout/*` - Layout templates for MDX content.
+- `src/pages/blogg/*` - Static blog posts written in [MDX](https://github.com/mdx-js/mdx).
+- `src/pages/*` - All static pages built of react components and static content.
+- `src/theme/*` - Contains site-wide theming such as colors, typography, margins and declarations of css variables.
+- `src/types/*` - Contains shareable types and interfaces used across site.
+- `src/utils/*` - Contains various utility functionality.
+- `public/` - Contains public content for site.
+- `public/img/posts/*` - Contains all images used in MDX blog posts.
+- `_templates/*` - Hygen.io templates for generating files.
 
-##### Course-Net Indonesia
-- **iOS Programming Coach**     
-2017.7 - 2016.9 teach iOS application development to 20-30 fellow students. Content : Objective-C，Basic UIKit Control，MVC，NSUserDefault，UITableView. 
-Wrote some code for RavenTech’s Raven H-1 media box. Mainly for unity music visualization (with audio source drum detection), unity assembly hot reload, and some native communication with Android.
-- **Basic Programming Coach**    
-2017.9 Primary Focus
-teaching Basic Programming such as Datastructures, OOP, etc.
+## ✍️ Generate blog post boilerplate
 
-##### Out-Source Projects
-still in progress
+Blog posts require certain **frontmatter** such as the name of a layout template and a date. These values can be cumbersome to fill it in by hand all the time.
 
-#### Personal projects
-(Note : I have plenty of them. To see in detail, visit [Portfolio](http://portfolio.justzht.com/), [GitHub](https://github.com/andikaleonardo)and [andikaleonardo.com](https://andikaleonardo.com). I also writes some posts on projects that is WIP or not open sourced yet on my personal blog)
+Because of this blog posts can be generated with [Hygen](http://www.hygen.io/) through the following `npm script`:
 
+```bash
+$ yarn article
+```
 
-### Social activity
-- **ESRI Event leader GISweek2018**    
-2018.6 - 2018.10 .
-- **Go-Jek Student Volunteer**    
-2018.1 - 2018.3 .
+The ☝️ command will prompt you for a _title_ and _summary_ of the article. The summary is optional for the sake of generating boilerplate.
 
+A `{title}.mdx` file will be generated in `src/pages/blogg/` where the title will be used as filename - also as url since it's a file in a Next.js `pages` directory. The `title` will be **slugified and lowercased** before used as filename.
+
+### 🗑 Clearing article cache
+
+When generating new articles it is sometimes necessary to clear some local caches, to get the new article to appear when running the application locally. In those cases you simply run `yarn cache:clear` after generating a new article - before serving the application with `yarn dev`. Your newly generated article should now be available locally.
+
+## 👨‍🎨 Site theming
+
+Many of this sites stylings that are of a more general character comes from a `theme` object defined in `src/theme/theme.ts`. The `theme` object is built up by different `theme parts` defined inside `src/theme/parts/*.ts`.
+
+The idea is to provide customization of the site's general styling though these theme object parts - and to have a single point of customization that will effect the entire site.
+
+The `theme` object consists of the following parts:
+
+- **breakpoints**: contains scale of string values representing pixel widths for media query breakpoints. Media queries using the mobile-first approach by `min-width` is used in this project - to maintain a mobile-first design.
+- **colors**: contains brand colors and a special `themed.light` and `themed.dark` object which represents different themable colors of texts, headings, box shadows that are different depending on light and dark mode.
+- **fonts**: contains font families and sizes. The sizing system is `rem` based by the `fonts.sizeBase` pixel value. This means that the entire font size scale can easily be adjusted by simply altering `fonts.sizeBase` value.
+- **layout**: contains global layout styles such as site width.
+- **spacings**: contains a pre-defined spacing scale.
+
+### CSS variables and dark/light mode
+
+CSS variables are created from the `theme` object in `src/theme/cssVariables.ts`.
+
+CSS variables that are dependant on light or dark mode are processed through a function in `src/theme/setupThemeVariables.ts`. Either the `theme.colors.themed.light` or `theme.colors.themed.dark` object are provided to the function in `src/theme/cssVariables.ts`.
+
+If a `.dark-mode` css class exist on the body element the css variables that are light/dark mode aware will be overridden with values from `theme.colors.themed.dark`
+
+## 👨‍💻 Running Locally
+
+Install dependencies with Yarn:
+
+```bash
+$ yarn
+```
+
+Start dev server with:
+
+```bash
+$ yarn dev
+```
+
+Build application with:
+
+```bash
+yarn build
+```
+
+Start application in production mode with:
+
+```bash
+yarn start
+```
+
+Lint application with:
+
+```bash
+yarn lint
+```
+
+Attempt to fix lint errors with:
+
+```bash
+yarn lint:fix
+```
+
+Generate new article with:
+
+```bash
+$ yarn article
+```
+
+Run hygen code generator with:
+
+```bash
+$ yarn generate
+```
+
+Clear `.next` folder caches with:
+
+```bash
+yarn cache:clear
+```
