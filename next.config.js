@@ -1,11 +1,25 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const withMdxEnhanced = require('next-mdx-enhanced');
-const mdxPrism = require('mdx-prism');
-
-module.exports = withMdxEnhanced({
-  layoutPath: 'src/layouts',
-  defaultLayout: true,
-  fileExtensions: ['mdx'],
-  remarkPlugins: [require('remark-code-titles')],
-  rehypePlugins: [mdxPrism],
-})(/* your normal nextjs config */);
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: "/challenge",
+        destination: "/#projects",
+        permanent: true,
+      },
+      {
+        source: "/challenge/about",
+        destination: "/blog/challenge-00",
+        permanent: true,
+      },
+      {
+        source: "/challenge/day-01",
+        destination: "/blog/challenge-01",
+        permanent: true,
+      },
+    ]
+  },
+  // Enable image optimization for microlinks.io
+  images: {
+    domains: ["api.microlink.io"],
+  },
+}
