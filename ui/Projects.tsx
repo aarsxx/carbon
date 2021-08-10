@@ -1,5 +1,4 @@
 import { FOCUS_VISIBLE_OUTLINE, LIGHT_COLORS } from "@/lib/constants"
-import { Screen } from "@/ui/challenge/Screen"
 import { useHover } from "@react-aria/interactions"
 import cx from "clsx"
 import Image from "next/image"
