@@ -32,17 +32,6 @@ const Project = ({ project }: { project: Project }) => {
               glareMaxOpacity={0.3}
               glareBorderRadius="11px"
             >
-              <Screen>
-                <div style={{ fontSize: 0 }}>
-                  <Image
-                    src={project.image}
-                    alt="Project Preview"
-                    width={500}
-                    height={300}
-                    priority={true}
-                  />
-                </div>
-              </Screen>
             </Tilt>
           ) : null}
           <p className="mt-6 text-xl font-bold text-gray-800">{project.name}</p>
