@@ -13,7 +13,7 @@ import {
 } from "../lib/data"
 import SectionHeading from "./SectionHeading"
 import { motion } from "framer-motion"
-import { useTheme } from "../context/theme-context"
+import { useTheme } from "../../context/theme-context"
 import { ExperienceLabel } from "./ExperienceLabel"
 import { useLocale } from "next-intl"
 

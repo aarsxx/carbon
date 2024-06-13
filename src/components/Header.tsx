@@ -5,7 +5,7 @@ import { links } from "../lib/data"
 import Link from "next/link"
 import clsx from "clsx"
 import { headerLanguageMap } from "../lib/data"
-import { useActiveSectionContext } from "../context/action-section-context"
+import { useActiveSectionContext } from "../../context/action-section-context"
 import { useLocale } from "next-intl"
 
 function Header() {

@@ -10,7 +10,7 @@ import { Source_Code_Pro } from "next/font/google"
 import { useLocale } from "next-intl"
 import { useSectionInView } from "../lib/hooks"
 import { TypeAnimation } from "react-type-animation"
-import { useActiveSectionContext } from "../context/action-section-context"
+import { useActiveSectionContext } from "../../context/action-section-context"
 import { useTranslations } from "next-intl"
 import useSound from "use-sound"
 
