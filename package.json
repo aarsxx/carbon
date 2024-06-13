@@ -1,40 +1,30 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "arsx",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "astro": "astro"
   },
   "dependencies": {
-    "@types/node": "20.12.7",
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
-    "@types/ua-parser-js": "^0.7.39",
-    "autoprefixer": "10.4.19",
-    "clsx": "^2.1.1",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.2.3",
-    "framer-motion": "^11.1.7",
-    "next": "14.2.3",
-    "next-intl": "^3.12.2",
-    "postcss": "8.4.38",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hot-toast": "^2.4.1",
-    "react-icons": "^5.1.0",
-    "react-intersection-observer": "^9.10.0",
-    "react-type-animation": "^3.2.0",
-    "react-vertical-timeline-component": "^3.6.0",
-    "resend": "^0.16.0",
-    "tailwindcss": "3.4.3",
-    "typescript": "5.4.5",
-    "ua-parser-js": "^1.0.37",
-    "use-sound": "^4.0.1"
+    "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.5.12",
+    "astro-font": "^0.0.77",
+    "astro-robots-txt": "^1.0.0",
+    "astro-seo": "0.8.0",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6"
+    "@typescript-eslint/parser": "5.59.7",
+    "eslint": "8.41.0",
+    "eslint-plugin-astro": "0.27.1",
+    "prettier": "2.8.8",
+    "prettier-plugin-astro": "0.9.0",
+    "prettier-plugin-tailwindcss": "0.3.0"
   }
 }
