@@ -3,11 +3,11 @@
 > An Astro + Tailwind CSS example/template for landing pages.
 
 <div align="center">
-
+  
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B1Z3IGW)
-
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/andikaleonardo) 
+</div>
 ## Getting Started
 
 First, run the development server:
