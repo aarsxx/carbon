@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "Hi, I’m arsx 👋",
   // profile: "/profile.webp",
   description:
-    "i'm a software engineer, optimist, and community builder. I currently work as the software engineer at Epidemic, where I built AI backend with django. Outside of work I learn Machine Learning and LLVMs",
+    "i'm a *software engineer*, optimist, and community builder. I currently work as the software engineer at Epidemic, where I built AI backend with django. Outside of work I learn Machine Learning and LLVMs",
   socials: [
     {
       label: "X",
