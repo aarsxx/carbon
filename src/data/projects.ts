@@ -14,18 +14,18 @@ const projects: Project[] = [
   },
   {
     title: "Nue",
-    techs: ["Laravel","Typescript","Tailwind"],
-    link: "https://github.com/andikaleonardo/datamine",
+    techs: ["Javascript","Laravel","Tailwind"],
+    link: "https://github.com/andikaleonardo/nue",
+  },
+    {
+    title: "Dotfiles",
+    techs: ["Shell"],
+    link: "https://github.com/andikaleonardo/dotfiles",
   },
   {
     title: "Brave iOS",
     techs: ["Swift"],
     link: "https://github.com/brave/brave-ios",
-  },
-  {
-    title: "Dotfiles",
-    techs: ["Shell"],
-    link: "https://github.com/andikaleonardo/dotfiles",
   },
 ];
 
