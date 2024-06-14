@@ -7,13 +7,13 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Kage",
+    title: "Solar",
     techs: ["Rust","Rabbitmq","Docker"],
     link: "https://github.com/andikaleonardo/kage",
     isComingSoon: true,
   },
   {
-    title: "Freya",
+    title: "Nue",
     techs: ["Laravel","Typescript","Tailwind"],
     link: "https://github.com/andikaleonardo/datamine",
   },
