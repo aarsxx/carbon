@@ -13,11 +13,11 @@ const projects: Project[] = [
     isComingSoon: true,
   },
   {
-    title: "Nue",
-    techs: ["Javascript","Laravel","Tailwind"],
-    link: "https://github.com/andikaleonardo/nue",
+    title: "Atom",
+    techs: ["Astro","Typescript"],
+    link: "https://github.com/andikaleonardo/atom",
   },
-    {
+  {
     title: "Dotfiles",
     techs: ["Shell"],
     link: "https://github.com/andikaleonardo/dotfiles",
