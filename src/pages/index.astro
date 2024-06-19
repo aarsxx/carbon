@@ -50,10 +50,10 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
         <article class="flex flex-col gap-8">
             <header class="flex w-full flex-row justify-between gap-2">
-                <h3 class="text-lg text-neutral-100">Latest posts</h3>
+                <h3 class="text-lg text-neutral-100">Recent posts</h3>
                 <Link href="/posts" label="Read all posts" isUnderline target="_self" />
             </header>
-            {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+            {posts.length === 0 && <p>Soon, stay connected 🫰</p>}
 
             <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
                 {
