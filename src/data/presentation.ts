@@ -13,11 +13,15 @@ type Presentation = {
 
 const presentation: Presentation = {
   mail: "leonardodika.13@gmail.com",
-  title: "hey, I'm aarsxx 👋",
+  title: "hey, I'm arsx 👋",
   // profile: "/greet.svg",
   description:
     "I'm a *software engineer* with over *5 years of experience*, specializing in building robust AI backends using *Django* at *Epidemic sound*. Currently, I'm diving into *Machine Learning* and *LLVM*, exploring new horizons in tech and optimization.",
   socials: [
+    {
+      label: "Résumé",
+      link: "/resume-2024.pdf",
+    },
     {
       label: "X",
       link: "https://twitter.com/aarsxx0",
