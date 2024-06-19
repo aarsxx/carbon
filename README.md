@@ -4,38 +4,51 @@
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-## Getting Started
-
-Clone this repo. Install its dependencies. `npm run dev` a server!
-
-```sh
-# Use the version of node from .nvmrc
-fnm use
-
-# Install dependencies and start a server
-npm install
-npm run dev
-```
-
-## Deploy on Vercel
+## 🚀 Deploy your own
 
 [![Deploy with Vercel](https://vercel.com/button)]()
 
-Check out our [astro deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🕊️ Lightweight
+All pages under 100kb (including fonts)
 
-## Built With
+## ⚡︎ Fast
+Rendered in ~40ms on localhost
+
+## 📄 Configuration
+
+### 💻 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run dev:network`     | Starts dev server on local network               |
+| `npm run sync`            | Generates TypeScript types for all Astro modules.|
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run preview:network` | Starts preview server on local network           |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run lint`            | Run ESLint                                       |
+| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+
+## 🫶 Built With
 
 - [Astro](https://astro.build)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## Thanks
+## ✨ Acknowledgement
 
 Thanks inspired by [leerob](https://github.com/hasparus/leerob) & [zaduma](https://github.com/hasparus/zaduma), The majority of the code for this project inspired by them.
 
-## Sponsor
+## 🗺️ Sponsor
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/andikaleonardo)
 
-## License
+## 🏛️ License
 
 This project is released under the MIT License. Please read the [LICENSE](https://github.com/godruoyi/gblog/blob/astro/LICENSE) file for more details.
