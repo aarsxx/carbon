@@ -28,7 +28,7 @@ const presentation: Presentation = {
     },
     {
       label: "Linkedin",
-      link: "https://github.com/leonardodika",
+      link: "https://linkedin.com/in/leonardodika",
     },
   ],
 };
