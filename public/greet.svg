@@ -1,0 +1,50 @@
+<svg fill="none"
+     xmlns="http://www.w3.org/2000/svg" height="37" width="250" viewBox="0 0 250 37">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; flex-direction: row;">
+            <style>
+                @keyframes waveAnimation {
+                0% {
+                transform: rotateZ(0deg) translate(-15%, -30%);
+                }
+                15% {
+                transform: rotateZ(20deg) translate(-15%, -30%);
+                }
+                30% {
+                transform: rotateZ(-10deg) translate(-15%, -30%);
+                }
+                50% {
+                transform: rotateZ(0deg) translate(-15%, -30%);
+                }
+                100% {
+                transform: rotateZ(0deg) translate(-15%, -30%);
+                }
+                }
+
+                h1 {
+                font-size: 1.5em;
+                margin: 7px 0 0 0;
+                }
+
+                .wave {
+                width: 37px;
+                -webkit-animation: waveAnimation 1.5s ease infinite;
+                animation: waveAnimation 1.5s ease infinite;
+                }
+
+                .text {
+                color: #c9d1d9;
+                margin-top: -2px;
+                font-family: -apple-system,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+                font-weight: 600;
+                }
+            </style>
+            <h1 class="wave">
+                👋
+            </h1>
+            <h1 class="text">
+                Hi, i'm aarsxx
+            </h1>
+        </div>
+    </foreignObject>
+</svg>
