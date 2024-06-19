@@ -14,7 +14,7 @@ const projects: Project[] = [
   },
   {
     title: "Atom",
-    techs: ["Astro","Typescript"],
+    techs: ["Astro","Tailwindcss","Typescript"],
     link: "https://github.com/andikaleonardo/atom",
   },
   {
