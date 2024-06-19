@@ -1,24 +1,19 @@
 # Ares <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/astro-icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/astro-icon-dark.png"><img align="right" valign="center" height="79" width="63" src="https://astro.build/assets/press/astro-icon-dark.png" alt="Astro logo" /></picture>
 English | [简体中文](./README.zh-CN.md)
-> 💠 open-source, minimal and beautiful portfolio.
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
+💠 open-source, minimal and beautiful portfolio.
+
+- 🍿 **Live preview**: https://arsx.xyz
+- ✨ **Release Notes**: https://github.com/andikaleonardo/ares/releases
 
 
-## 🚀 Deploy your own
+## Getting Started ❤
 
-[![Deploy with Vercel](https://vercel.com/button)]()
+### Installation
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
-
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
-
-## 📄 Configuration
-
-### 💻 Commands
+### Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -37,6 +32,18 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 | `npm run lint`            | Run ESLint                                       |
 | `npm run lint:fix`        | Auto-fix ESLint issues                           |
+
+### Deploy your own
+
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
+
+## 🕊️ Lightweight
+All pages under 100kb (including fonts)
+
+## ⚡︎ Fast
+Rendered in ~40ms on localhost
+
+## 📄 Configuration
 
 ## 🫶 Built With
 
