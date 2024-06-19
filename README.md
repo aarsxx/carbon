@@ -8,7 +8,6 @@ English | [简体中文](./README.zh-CN.md)
 - 🍿 **Live preview**: https://arsx.xyz
 - ✨ **Release Notes**: https://github.com/andikaleonardo/ares/releases
 
-
 ## Getting Started ❤
 
 ### Installation
@@ -36,7 +35,6 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 ### Deploy your own
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
-
 ## 🕊️ Lightweight
 All pages under 100kb (including fonts)
 
