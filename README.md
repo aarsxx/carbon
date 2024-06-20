@@ -1,47 +1,94 @@
-# Ares <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/astro-icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/astro-icon-dark.png"><img align="right" valign="center" height="79" width="63" src="https://astro.build/assets/press/astro-icon-dark.png" alt="Astro logo" /></picture>
+# Cosmos <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/astro-icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/astro-icon-dark.png"><img align="right" valign="center" height="79" width="63" src="https://astro.build/assets/press/astro-icon-dark.png" alt="Astro logo" /></picture>
 English | [简体中文](./README.zh-CN.md)
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-💠 open-source, minimal and beautiful portfolio.
+💠Welcome to Cosmos, an open-source, minimal and beautiful portfolio built with astro
 
 - 🍿 **Live preview**: https://arsx.xyz
-- ✨ **Release Notes**: https://github.com/andikaleonardo/ares/releases
+- ✨ **Release Notes**: https://github.com/aarsxx/cosmos/releases
 
-## Getting Started ❤
+## Installation
 
-### Installation
+To get started with the Cosmos project, follow these steps:
 
-### Commands
+### Prerequisites
 
-All commands are run from the root of the project, from a terminal:
+Make sure you have the following software installed:
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+- [Node.js](https://nodejs.org/) (use the version specified in the `.nvmrc` file)
+- [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager)
+- [pnpm](https://pnpm.io/) (version 6.0.0 or higher)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts dev server on local network               |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Starts preview server on local network           |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+### Clone the Repository
 
-### Deploy your own
+First, clone the repository to your local machine using git:
 
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+```bash
+git clone https://github.com/andikaleonardo/cosmos.git
+cd cosmos
+```
+### Use Correct Node Version
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+Navigate to the project directory and use the Node.js version specified in the .nvmrc file:
 
-## 📄 Configuration
+```bash
+nvm install
+nvm use
+```
+
+### Install Dependencies
+Install the necessary dependencies using pnpm:
+
+```bash
+pnpm install
+```
+
+### Run the Development Server
+After installing the dependencies, start the development server:
+
+```bash
+pnpm dev
+```
+
+Open your browser and navigate to http://localhost:3000 to see your Astro.js project in action.
+
+### Additional Commands
+
+Here is a table of all commands:
+
+| Command        | Description            |
+|----------------|------------------------|
+| `pnpm dev`     | Run the development server |
+| `pnpm build`   | Create a production build  |
+| `pnpm preview` | Preview the production build |
+| `pnpm lint`    | Lint the project           |
+| `pnpm format`  | Format the code            |
+
+
+## Build for Production
+To create a production build of your project:
+
+```bash
+pnpm build
+```
+
+## Preview the Production Build
+To preview the production build locally:
+
+```bash
+pnpm preview
+```
+
+## Deploy your own
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yourusername/cosmos)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/cosmos)
+
+
+## 📄 Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
 ## 🫶 Built With
 

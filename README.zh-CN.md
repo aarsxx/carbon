@@ -35,7 +35,8 @@ English | [简体中文](./README.zh-CN.md)
 
 ### 部署您的项目
 
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
+[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/andikaleonardo/ares)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/andikaleonardo/ares)
+
 ## 🕊️ 轻量级
 所有页面均小于 100kb（包括字体）
 
