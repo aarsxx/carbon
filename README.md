@@ -3,7 +3,7 @@ English | [简体中文](./README.zh-CN.md)
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 
-💠Welcome to Cosmos, an open-source, minimal and beautiful portfolio built with astro
+💠 Welcome to Cosmos, an open-source, minimal and beautiful portfolio built with astro
 
 - 🍿 **Live preview**: https://arsx.xyz
 - ✨ **Release Notes**: https://github.com/aarsxx/cosmos/releases
@@ -51,7 +51,7 @@ After installing the dependencies, start the development server:
 pnpm dev
 ```
 
-Open your browser and navigate to http://localhost:3000 to see your Astro.js project in action.
+Open your browser and navigate to http://localhost:4321 to see your Astro.js project in action.
 
 ### Additional Commands
 
