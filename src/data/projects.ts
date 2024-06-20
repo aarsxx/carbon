@@ -7,7 +7,7 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "ProjectONE",
+    title: "ONE SSO",
     techs: ["Rust","Postgres","Redis","Rabbitmq","Docker"],
     link: "https://github.com/andikaleonardo/one",
     isComingSoon: true,
