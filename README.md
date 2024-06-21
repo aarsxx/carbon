@@ -106,3 +106,5 @@ Thanks inspired by [leerob](https://github.com/hasparus/leerob) & [zaduma](https
 ## 🏛️ License
 
 This project is released under the MIT License. Please read the [LICENSE](https://github.com/godruoyi/gblog/blob/astro/LICENSE) file for more details.
+
+<img alt="Star the Expo repo on GitHub to support the project" src="https://user-images.githubusercontent.com/9664363/185428788-d762fd5d-97b3-4f59-8db7-f72405be9677.gif" width="50%">
