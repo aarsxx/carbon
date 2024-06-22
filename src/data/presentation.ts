@@ -28,7 +28,7 @@ const presentation: Presentation = {
     },
     {
       label: "Github",
-      link: "https://github.com/andikaleonardo",
+      link: "https://github.com/aarsxx",
     },
     {
       label: "Linkedin",
