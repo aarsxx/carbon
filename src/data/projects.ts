@@ -7,25 +7,30 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "ONE SSO",
+    title: "One",
     techs: ["Rust","Postgres","Redis","Rabbitmq","Docker"],
-    link: "https://github.com/andikaleonardo/one",
+    link: "https://github.com/aarsxx/one",
     isComingSoon: true,
   },
   {
     title: "Cosmos",
     techs: ["Astro","Tailwindcss","Typescript"],
-    link: "https://github.com/andikaleonardo/atom",
+    link: "https://github.com/aarsxx/atom",
   },
   {
     title: "Dotfiles",
     techs: ["Shell"],
-    link: "https://github.com/andikaleonardo/dotfiles",
+    link: "https://github.com/aarsxx/dotfiles",
   },
   {
     title: "Brave iOS",
     techs: ["Swift"],
     link: "https://github.com/brave/brave-ios",
+  },
+  {
+    title: "Readme Template",
+    techs: ["markdown"],
+    link: "https://github.com/aarsxx/readme-template",
   },
 ];
 
