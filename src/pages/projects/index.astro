@@ -1,16 +1,12 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
-import formatDate from "@/utils/formatDate";
 import projects from "../../data/projects";
 import ProjectCard from "../../components/ProjectCard.astro";
 
-const posts = (await getCollection("posts")).sort(function (first, second) {
-  return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
-});
 ---
 
-<Layout title="All Projects | arsx">
+<Layout title="Projects | arsx">
   <main class="flex flex-col gap-20">
     <h1 class="text-2xl text-neutral-100">Projects & Contributions</h1>
 
