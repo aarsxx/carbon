@@ -7,16 +7,16 @@ export type Project = {
 };
 const projects: Project[] = [
   {
-    title: "One",
+    title: "FUTR",
     techs: ["rust","postgres","redis","rabbitmq","docker"],
-    link: "https://github.com/aarsxx/one",
+    link: "https://github.com/aarsxx/futr",
     isComingSoon: true,
     selected: true,
   },
   {
     title: "Cosmos",
     techs: ["astro","tailwindcss","typescript"],
-    link: "https://github.com/aarsxx/atom",
+    link: "https://github.com/aarsxx/cosmos",
     selected: true,
   },
   {
