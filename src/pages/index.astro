@@ -48,6 +48,22 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
             </div>
         </article>
 
+        <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
+            {
+                posts.length !== 0 &&
+                posts
+                    .slice(0, 2)
+                    .map((post) => (
+                            <PostCard
+                                    publishedAt={post.data.publishedAt}
+                                    title={post.data.title}
+                                    description={post.data.description}
+                                    slug={post.slug}
+                            />
+                    ))
+            }
+        </section>
+
         <article class="flex flex-col gap-8">
             <header class="flex w-full flex-row justify-between gap-2">
                 <h3 class="text-lg text-neutral-100">
@@ -75,21 +91,6 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
             </header>
             {posts.length === 0 && <p>Soon, stay connected 🫰</p>}
 
-            <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
-                {
-                    posts.length !== 0 &&
-                    posts
-                        .slice(0, 2)
-                        .map((post) => (
-                                <PostCard
-                                        publishedAt={post.data.publishedAt}
-                                        title={post.data.title}
-                                        description={post.data.description}
-                                        slug={post.slug}
-                                />
-                        ))
-                }
-            </section>
         </article>
 
         <article class="flex flex-col gap-8">

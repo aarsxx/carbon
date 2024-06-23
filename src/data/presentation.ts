@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "hey, I'm arsx 👋",
   // profile: "/greet.svg",
   description:
-    "I'm a *software engineer* with over *5 years of experience*, specializing in building robust AI backends using *Django* at *Epidemic sound*. Currently, I'm diving into *Machine Learning* and *LLVM*, exploring new horizons in tech and optimization.",
+    "I'm a *senior software engineer* with over *5 years of experience*, specializing in building robust AI backends using *Django* at *Epidemic sound*. Currently, I'm diving into *Machine Learning* and *LLVM*, exploring new horizons in tech and optimization.",
   socials: [
     {
       label: "X",
