@@ -50,6 +50,26 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
         <article class="flex flex-col gap-8">
             <header class="flex w-full flex-row justify-between gap-2">
+                <h3 class="text-lg text-neutral-100">
+                    Selected projects ({projects.filter(project => project.selected).length})
+                </h3>
+                <Link href="/projects" label="See all projects" isUnderline target="_self" />
+            </header>
+            {projects.filter(project => project.selected).length === 0 && <p>Oops, Still work in progress</p>}
+
+            <section class="flex flex-col gap-4">
+                {
+                    projects.filter(project => project.selected).length > 0 &&
+                    projects.filter(project => project.selected).length < 4 &&
+                    projects
+                        .filter(project => project.selected)
+                        .map((project) => <ProjectCard key={project.link} {...project} />)
+                }
+            </section>
+        </article>
+
+        <article class="flex flex-col gap-8">
+            <header class="flex w-full flex-row justify-between gap-2">
                 <h3 class="text-lg text-neutral-100">Recent posts</h3>
                 <Link href="/posts" label="Read all posts" isUnderline target="_self" />
             </header>
@@ -68,22 +88,6 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
                                         slug={post.slug}
                                 />
                         ))
-                }
-            </section>
-        </article>
-
-        <article class="flex flex-col gap-8">
-            <header class="flex w-full flex-row justify-between gap-2">
-                <h3 class="text-lg text-neutral-100">
-                    Selected projects ({projects.length})
-                </h3>
-            </header>
-            {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
-
-            <section class="flex flex-col gap-4">
-                {
-                    projects.length !== 0 &&
-                    projects.map((project) => <ProjectCard {...project} />)
                 }
             </section>
         </article>
