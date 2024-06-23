@@ -31,7 +31,7 @@ const presentation: Presentation = {
       link: "https://linkedin.com/in/leonardodika",
     },
     {
-      label: "Hackerone",
+      label: "HackerOne",
       link: "https://hackerone.com/arsx",
     },
   ],
