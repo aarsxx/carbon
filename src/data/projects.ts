@@ -20,6 +20,11 @@ const projects: Project[] = [
     selected: true,
   },
   {
+    title: "Resume",
+    techs: ["Astro","Astro","Taiwind"],
+    link: "https://github.com/aarsxx/resume",
+  },
+  {
     title: "Dotfiles",
     techs: ["shell"],
     link: "https://github.com/aarsxx/dotfiles",
@@ -29,7 +34,9 @@ const projects: Project[] = [
     title: "Brave iOS",
     techs: ["swift"],
     link: "https://github.com/brave/brave-ios",
+    selected: true,
   },
+
   {
     title: "Readme Template",
     techs: ["markdown"],
