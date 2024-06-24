@@ -33,7 +33,7 @@ const projects: Project[] = [
   },
   {
     title: "Resume",
-    techs: ["Astro","Astro","Taiwind"],
+    techs: ["astro","tailwind"],
     link: "https://github.com/aarsxx/resume",
   },
   {
