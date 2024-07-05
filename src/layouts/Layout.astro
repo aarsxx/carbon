@@ -1,27 +1,125 @@
 ---
-import Header from "../components/Header.astro";
-import BlurCircle from "@/components/shared/BlurCircle.astro";
-import theme from "@/data/theme";
-import SEOTags from "@/components/seo/SEOTags.astro";
-import type { HeadTags } from "@/utils/types/HeadTags";
+import "@fontsource/inter/200.css";
+import "@fontsource/inter/300.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/plus-jakarta-sans/300.css";
+import "@fontsource/plus-jakarta-sans/400.css";
+import "@fontsource/plus-jakarta-sans/500.css";
+import thumbnail from "../assets/images/thumbnail.webp";
 
-import "@/styles/tailwind.css";
-import "@/styles/post.css";
+const { title } = Astro.props;
 
-export type Props = HeadTags;
-
-const headTags = Astro.props;
+export interface Props {
+    title: string;
+}
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-<SEOTags {...headTags} />
-<body
-        class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"
->
-<Header />
-<BlurCircle position="top" color={theme.colors.blur.top} />
-<BlurCircle position="bottom" color={theme.colors.blur.bottom} />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="/apple-icon-114x114.png"
+    />
+    <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/apple-icon-120x120.png"
+    />
+    <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="/apple-icon-144x144.png"
+    />
+    <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/apple-icon-152x152.png"
+    />
+    <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-icon-180x180.png"
+    />
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content="osvauld" />
+    <meta
+            name="description"
+            content="On-premise, open-source credential manager for shared credentials"
+    />
+    <meta
+            property="og:description"
+            content="On-premise, open-source credential manager for shared credentials"
+    />
+    <meta property="og:url" content="https://osvauld.com/" />
+    <meta property="image" content=`https://osvauld.com${thumbnail}` />
+    <meta property="og:image" content=`https://osvauld.com${thumbnail}` />
+    <meta property="og:type" content="website" />
+</head>
+
+<body>
 <slot />
+
+<style is:global>
+    @font-face {
+        font-family: "Inter";
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Plus Jakarta Sans";
+        font-display: swap;
+    }
+    html {
+        font-family: "Inter", "Plus Jakarta Sans";
+        background-color: #010409;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+    }
+
+    html::-webkit-scrollbar {
+        width: 4px;
+        height: 130px;
+    }
+
+    html::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background-color: #2f303e;
+        border-radius: 4px;
+    }
+
+    .active.html::-webkit-scrollbar-thumb {
+        background-color: #2f303e; /* color of the thumb */
+    }
+
+    html::-webkit-scrollbar-thumb:hover {
+        background-color: #2f303e; /* color of the thumb on hover */
+    }
+</style>
 </body>
 </html>
