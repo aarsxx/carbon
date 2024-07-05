@@ -1,107 +1,31 @@
 ---
-import { getCollection } from "astro:content";
-import { Image } from "astro:assets"
-
-import Layout from "@/layouts/Layout.astro";
-import SocialLinks from "@/components/SocialLinks.astro";
-import PostCard from "@/components/PostCard.astro";
-import ProjectCard from "@/components/ProjectCard.astro";
-import Link from "@/components/shared/Link.astro";
-import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
-
-import presentation from "@/data/presentation";
-import projects from "@/data/projects";
-
-const posts = (await getCollection("posts")).sort(function (first, second) {
-    return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
-});
+import Layout from "../layouts/Layout.astro";
+import { Hero } from "../components/Hero.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import { SecureByDesign } from "../components/SecureByDesign.jsx";
+import { IntutiveSharing } from "../components/IntutiveSharing.jsx";
+import { OnPremise } from "../components/OnPremise.jsx";
+import { UseOsvauld } from "../components/UseOsvauld.jsx";
+import { JoinUs } from "../components/JoinUs.jsx";
+import { OpenSource } from "../components/OpenSource.jsx";
+import { TechStack } from "../components/TechStack.jsx";
+import { Divider } from "../components/Divider";
+import { Footer } from "../components/Footer.jsx";
+import { ScrollUpButton } from "../components/ScrollUpButton";
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
 ---
 
-<Layout>
-    <main class="flex flex-col gap-20">
-        <article
-                class="flex flex-col gap-8 md:flex-row-reverse md:justify-end md:gap-12"
-        >
-            {
-                presentation.profile && (
-                            <Image
-                                    src={presentation.profile}
-                                    class="w-1/4 self-center rounded-full"
-                                    alt="Your Profile"
-                                    width="200"
-                                    height="200"
-                            />
-                )
-            }
-
-            <div class="flex flex-col gap-8">
-                <h1 class="text-3xl text-neutral-100">
-                    {presentation.title}
-                </h1>
-
-                <h2
-                        class="w-auto max-w-[60ch] leading-6"
-                        set:html={convertAsteriskToStrongTag(presentation.description)}
-                />
-
-                <SocialLinks />
-            </div>
-        </article>
-        <article class="flex flex-col gap-8">
-            <header class="flex w-full flex-row justify-between gap-2">
-                <h3 class="text-lg text-neutral-100">Recent posts</h3>
-                <Link href="/posts" label="Read all posts" isUnderline target="_self" />
-            </header>
-            {posts.length === 0 && <p>Soon, stay connected 🫰</p>}
-            <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
-                {
-                    posts.length !== 0 &&
-                    posts
-                        .slice(0, 2)
-                        .map((post) => (
-                                <PostCard
-                                        publishedAt={post.data.publishedAt}
-                                        title={post.data.title}
-                                        description={post.data.description}
-                                        slug={post.slug}
-                                />
-                        ))
-                }
-            </section>
-        </article>
-
-        <article class="flex flex-col gap-8">
-            <header class="flex w-full flex-row justify-between gap-2">
-                <h3 class="text-lg text-neutral-100">
-                    Selected projects ({projects.filter(project => project.selected).length})
-                </h3>
-                <Link href="/projects" label="See all projects" isUnderline target="_self" />
-            </header>
-            {projects.filter(project => project.selected).length === 0 && <p>Oops, Still work in progress</p>}
-
-            <section class="flex flex-col gap-4">
-                {
-                    projects.filter(project => project.selected).length > 0 &&
-                    projects.filter(project => project.selected).length < 4 &&
-                    projects
-                        .filter(project => project.selected)
-                        .map((project) => <ProjectCard key={project.link} {...project} />)
-                }
-            </section>
-        </article>
-
-        <article class="flex flex-col gap-8">
-            <header class="flex w-full flex-row justify-between gap-2">
-                <h3 class="text-lg text-neutral-100">Let's Connect</h3>
-            </header>
-            <p>
-                Reach out to me via email at <Link
-                    href={`mailto:${presentation.mail}`}
-                    label={presentation.mail}
-            /> or on social media.
-            </p>
-
-            <SocialLinks />
-        </article>
-    </main>
+<Layout title="osvauld">
+  <Navbar client:load />
+  <Hero client:load />
+  <TechStack client:load />
+  <SecureByDesign client:load />
+  <IntutiveSharing client:load />
+  <OnPremise client:load />
+  <OpenSource client:load />
+  <JoinUs client:load />
+  <UseOsvauld client:load />
+  <Footer />
+  <ScrollUpButton client:load />
 </Layout>
