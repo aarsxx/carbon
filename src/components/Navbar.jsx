@@ -11,8 +11,8 @@ import { EyeOff } from "../assets/icons/EyeOff";
 import { Tick } from "../assets/icons/Tick";
 const navbarLinks = [
   {
-    label: "Documentation",
-    href: "https://docs.osvauld.com/introduction/overview/",
+    label: "Public Beta",
+    href: "https://docs.carbon.arsx.com/introduction/overview/",
     ariaLabel: "Documentation",
   },
 ];
@@ -73,7 +73,7 @@ export const Navbar = () => {
               className="text-white3 font-Jakartha font-semibold text-4xl pl-2"
               onClick={scrollToTop}
             >
-              osvauld
+              carbon
             </button>
           </div>
         </motion.div>
@@ -160,7 +160,7 @@ export const Navbar = () => {
                         <div className="w-[95%] flex flex-col justify-center items-start text-trialFieldText  ">
                           <span>Base URL</span>
                           <div className="flex justify-between items-center bg-trialField rounded-md text-sm w-full px-2 py-1.5 mt-1">
-                            <span>https://demo.osvauld.com</span>
+                            <span>https://carbon.arsx.xyx</span>
                             <button
                               onClick={async () =>
                                 await copyToClipboard(
@@ -247,11 +247,11 @@ export const Navbar = () => {
               <a
                 className="text-dark1
             bg-blue1 rounded-md px-3 py-1.5 text-sm whitespace-nowrap  flex cursor-pointer"
-                href="https://getwaitlist.com/waitlist/14960"
+                href="https://docs.carbon.arsx.xyz"
                 target="_blank"
                 aria-label="get started"
               >
-                <span className="pt-px">Request Beta</span>
+                <span className="pt-px">Docs</span>
               </a>
             </div>
           </div>

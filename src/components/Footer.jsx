@@ -192,7 +192,7 @@ export const Footer = () => {
                 </a>
               </div>
               <span className="whitespace-nowrap">
-                ©2024 osvauld. All rights reserved.
+                ©2025 carbon. All rights reserved.
               </span>
             </div>
             <div className="flex gap-12 my-4 xl:my-0">

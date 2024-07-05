@@ -50,7 +50,7 @@ export const Hero = React.memo(() => {
           <div className="text-blue1 h-8 text-sm sm:text-base w-full mb-6 sm:mt-32 mt-16 font-bold">
             <a
               className="flex w-full justify-center items-center font-normal text-sm rounded-md bg-blue2 h-full px-4 py-2 cursor-pointer"
-              href="https://github.com/aarsxx/web-client"
+              href="https://github.com/aarsxx/carbon"
               target="_blank"
               rel="noopener noreferrer"
             >
