@@ -11,10 +11,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^3.1.1",
+    "@astrojs/tailwind": "^5.1.2",
     "@fontsource/inter": "^4.5.15",
     "@fontsource/plus-jakarta-sans": "^5.0.18",
-    "astro": "^2.2.0",
+    "astro": "^4.16.6",
     "astro-seo": "^0.8.2",
     "clsx": "^2.1.0",
     "framer-motion": "^10.11.2",
